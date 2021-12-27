@@ -1,0 +1,20 @@
+.chatFilter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 83px;
+
+  &__select {
+    position: relative;
+    width: 275px;
+    height: 44px;
+    border-radius: 14px;
+
+    &::after{
+      position: absolute;
+      content: '';
+
+    }
+  }
+}

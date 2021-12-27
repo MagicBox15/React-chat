@@ -1,0 +1,32 @@
+@import '../../../../variables';
+
+.chatItem {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.userAvatar {
+  padding: 0 12px 0 20px;
+
+  &__img {
+  width: 48px;
+  }
+}
+
+.chatInfo {
+  &__userName {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__lastMessage {
+    font-size: 14px;
+    line-height: 140%;
+    color: $secondaryColor;
+  }
+}
+
+.span {
+  color: $primaryColor;
+}
