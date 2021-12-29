@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/React-chat/static/css/main.19cbb1b4.chunk.css",
-    "main.js": "/React-chat/static/js/main.4efedfa5.chunk.js",
-    "main.js.map": "/React-chat/static/js/main.4efedfa5.chunk.js.map",
+    "main.css": "/React-chat/static/css/main.029dfad6.chunk.css",
+    "main.js": "/React-chat/static/js/main.d0550fc8.chunk.js",
+    "main.js.map": "/React-chat/static/js/main.d0550fc8.chunk.js.map",
     "runtime-main.js": "/React-chat/static/js/runtime-main.fb76eb4c.js",
     "runtime-main.js.map": "/React-chat/static/js/runtime-main.fb76eb4c.js.map",
-    "static/js/2.5806891c.chunk.js": "/React-chat/static/js/2.5806891c.chunk.js",
-    "static/js/2.5806891c.chunk.js.map": "/React-chat/static/js/2.5806891c.chunk.js.map",
+    "static/js/2.4af7b706.chunk.js": "/React-chat/static/js/2.4af7b706.chunk.js",
+    "static/js/2.4af7b706.chunk.js.map": "/React-chat/static/js/2.4af7b706.chunk.js.map",
     "index.html": "/React-chat/index.html",
-    "static/css/main.19cbb1b4.chunk.css.map": "/React-chat/static/css/main.19cbb1b4.chunk.css.map",
-    "static/js/2.5806891c.chunk.js.LICENSE.txt": "/React-chat/static/js/2.5806891c.chunk.js.LICENSE.txt",
-    "static/media/Subtract.fb47c26e.png": "/React-chat/static/media/Subtract.fb47c26e.png"
+    "static/css/main.029dfad6.chunk.css.map": "/React-chat/static/css/main.029dfad6.chunk.css.map",
+    "static/js/2.4af7b706.chunk.js.LICENSE.txt": "/React-chat/static/js/2.4af7b706.chunk.js.LICENSE.txt",
+    "static/media/2.jpg": "/React-chat/static/media/2.175fa317.jpg",
+    "static/media/3.jpg": "/React-chat/static/media/3.7af21d20.jpg",
+    "static/media/4.jpg": "/React-chat/static/media/4.387d85a9.jpg",
+    "static/media/gallery1.jpg": "/React-chat/static/media/gallery1.9e6bd5ca.jpg",
+    "static/media/gallery2.jpg": "/React-chat/static/media/gallery2.c190b69f.jpg",
+    "static/media/gallery3.jpg": "/React-chat/static/media/gallery3.87e92fbc.jpg",
+    "static/media/gallery4.jpg": "/React-chat/static/media/gallery4.b10a2b0b.jpg",
+    "static/media/likeYou.b77ec027.png": "/React-chat/static/media/likeYou.b77ec027.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fb76eb4c.js",
-    "static/js/2.5806891c.chunk.js",
-    "static/css/main.19cbb1b4.chunk.css",
-    "static/js/main.4efedfa5.chunk.js"
+    "static/js/2.4af7b706.chunk.js",
+    "static/css/main.029dfad6.chunk.css",
+    "static/js/main.d0550fc8.chunk.js"
   ]
 }
