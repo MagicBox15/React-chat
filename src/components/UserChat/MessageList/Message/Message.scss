@@ -1,17 +1,18 @@
 @import '../../../../variables';
 
 .message {
-  
-  // max-width: 395px;
-  // задать максимальную ширину бабблам
+  position: relative;
+  &__container {
+   
+  }
 
   &__content {
-    
     margin-top: 8px;
   }
 
   &__bubble {
     display: inline-block;
+    max-width: 396px;
     background-color: $messageBcgColor;
     border-radius: 25px 25px 25px 4px;
   }
@@ -51,14 +52,14 @@
       left: -16px;
       width: 14px;
     }
-    
+    // &__notReadedImg {
+    //   display: inline-block;
+    //   position: absolute;
+    //   top: 2px;
+    //   left: -16px;
+    //   width: 14px;
+    // }
   }
 }
 // подправить размеры галочек на сообщениях
-.message__notReadedImg {
-  display: inline-block;
-  position: absolute;
-  top: 2px;
-  left: -16px;
-  width: 14px;
-}
+// выставить правильное позиционирование одной галочки

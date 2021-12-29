@@ -11,6 +11,7 @@
 
   &__img {
   width: 48px;
+  border-radius: 50px;
   }
 }
 
@@ -21,12 +22,31 @@
   }
 
   &__lastMessage {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     line-height: 140%;
     color: $secondaryColor;
   }
+
+  &__gift {
+    color: $giftMessageColor;
+  }
+
+  &__sympathy {
+    color: $sympathyColor;
+  }
+}
+
+.myMessageSpan {
+  color: $primaryColor;
+}
+
+.sympathyIcon, .presentIcon {
+  width: 16px;
+  margin-right: 4px;
 }
 
 .span {
-  color: $primaryColor;
+  display: inline-block;
 }

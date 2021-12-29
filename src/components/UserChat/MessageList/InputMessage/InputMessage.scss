@@ -1,0 +1,42 @@
+@import '../../../../variables';
+
+.inputMessage {
+  position: relative;
+  &__input {
+    height: 48px;
+    width: 488px;
+    padding-left: 16px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+
+    &:focus {
+      outline: none;
+      border-color: $inputBorderColor;
+    }
+  }
+
+  &__buttons {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 346px;
+    transform: translateY(-50%);
+    gap: 10px;
+    img {
+      display: block;
+      width: 24px;
+      padding: 2px;
+    }
+  }
+
+  &__send::before {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 24px;
+    bottom: 0;
+    transform: rotate(90deg) translate(-50%, 16px);
+    background-color: #c4c4c4;
+  }
+}

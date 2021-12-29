@@ -1,4 +1,11 @@
 .messageList {
-  margin: 20px;
-  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 752px;
+  padding: 20px;
+
+  &__input {
+    width: 100px;
+  }
 }

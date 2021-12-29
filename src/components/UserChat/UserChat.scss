@@ -1,6 +1,13 @@
+@import '../../variables';
+
 .userChat {
   display: flex;
   flex-direction: column;
-  background-color: #ecedef;
+  background-color: $bcgColor;
   border-radius: 0 30px 30px 0;
+  border-left: 1px solid $linesColor;
+}
+
+.chatActive {
+  background-color: $bcgColor;
 }

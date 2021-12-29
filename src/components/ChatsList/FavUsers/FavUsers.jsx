@@ -1,4 +1,5 @@
 import React from 'react';
+import favImg from '../../../images/likeYou.png';
 
 import './FavUsers.scss';
 
@@ -7,7 +8,7 @@ export const FavUsers = () => (
     <div className="favUsers__photo">
       <img
         className="favUsers__img"
-        src=""
+        src={favImg}
         alt="favUsers"
       />
     </div>

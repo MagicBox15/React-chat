@@ -1,10 +1,23 @@
+@import '../../../variables';
+
 .user {
   display: flex;
+  position: relative;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   width: 528px;
-  height: 148px;
-  // border: 1px solid black;
+  height: 168px;
+
+  &::after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: calc(100% - 40px);
+    bottom: 0;
+    // transform: rotate(90deg) translate(-50%, 16px);
+    background-color: $linesColor;
+    }
 
   &__header {
     justify-content: space-between;
@@ -24,7 +37,6 @@
 
   &__verified {
     width: 20px;
-    height: 20px;
   }
 
   &__title {
@@ -44,10 +56,12 @@
   &__img {
     width: 64px;
     height: 64px;
+    border-radius: 50px;
   }
 
   &__header {
     display: flex;
+    height: 64px;
   }
 
   &__favInfo {
@@ -63,20 +77,45 @@
   &__favText {
     margin-left: 4px;
     font-size: 14px;
-    color: #8398a2;
+    color: $secondaryColor;
   }
 
   &__extraButton {
-    all: unset;
-    cursor: pointer;
+    padding: 17px 12px;
+    border: 1px solid $lightGray;
+    border-radius: 12px;
+  }
+  &__more {
+    display: block;
+    width: 14px;
   }
 
   &__gallery {
-    padding: 16px 20px;
-    height: 48px;
-    background-color: blanchedalmond;
+    position: relative;
+    width: 488px;
+    margin-top: 16px;
+    overflow: hidden;
+    display: flex;
+    gap: 4px;
+
   }
 
+  &__galleryButton {
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 24px);
+    transform: translateY(-50%);
+  }
+  &__galleryButtonImg {
+    width: 24px;
+  }
+
+  &__galleryImg {
+    height: 48px;
+    border-radius: 10px;
+  }
+
+// черта под юзером
   // &::after {
   //   content: '';
   //   height: 1px;

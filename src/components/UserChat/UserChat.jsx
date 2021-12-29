@@ -7,7 +7,11 @@ import './UserChat.scss';
 export const UserChat = () => (
   <div className="userChat">
     <div className="userChat">
-      <User name="Раиса" age={24} favDate={new Date(2021, 11, 25)} />
+      <User
+        name="Раиса&nbsp;"
+        age={24}
+        favDate={new Date(2021, 11, 25)}
+      />
       <MessageList />
     </div>
   </div>
